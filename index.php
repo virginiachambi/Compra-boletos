@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Compra de Boletos</title>
+    <!-- Enlace al archivo CSS -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <div class="container">
         <h1>Compra de Boletos</h1>
+        <!-- Formulario para la compra de boletos -->
         <form action="confirmacion.php" method="POST">
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre" required><br>
@@ -19,7 +21,7 @@
             <label for="evento">Seleccione el Evento:</label>
             <select id="evento" name="evento" required>
                 <option value="concierto">Concierto</option>
-                <option value="">Teatro</option>
+                <option value="teatro">Teatro</option>
                 <option value="cine">Cine</option>
             </select><br>
 
@@ -31,3 +33,4 @@
     </div>
 </body>
 </html>
+
